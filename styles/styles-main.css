@@ -388,3 +388,12 @@ footer article .contact-details {
     grid-gap: 2rem;
     margin-bottom: 3.5rem;
 }
+
+footer p.credit,
+footer copyright.credit {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #979797;
+
+}
