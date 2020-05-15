@@ -289,15 +289,16 @@ Research page styles
 .projects {
     display: grid;
     grid-template-columns: 200px 1fr;
+    grid-gap: 3rem;
     width: 830px;
     margin: auto;
     padding: 3rem 0;
     border-bottom: 1px solid #e1e1e1;
 }
 
-/* .projects .dates {
-
-} */
+.projects>img {
+    justify-self: end;
+}
 
 .projects .sponsor {
     text-transform: uppercase;
